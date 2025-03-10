@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "form-handling-react",
+=======
+  "name": "recipe-sharing-app",
+>>>>>>> a0f1df992b47f81f916af7d6d34e06448816e36f
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,10 +14,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "formik": "^2.4.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "yup": "^1.6.1"
+=======
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.2.0",
+    "zustand": "^5.0.3"
+>>>>>>> a0f1df992b47f81f916af7d6d34e06448816e36f
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
