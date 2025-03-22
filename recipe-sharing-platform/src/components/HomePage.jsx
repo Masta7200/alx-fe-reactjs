@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import recipeData from '../data.json';
 
 const HomePage = () => {
@@ -21,12 +22,12 @@ const HomePage = () => {
             <div className="p-4">
               <h2 className="text-lg font-bold mb-2">{recipe.title}</h2>
               <p className="text-gray-600 mb-4">{recipe.summary}</p>
-              <a
-                href={`/recipe/${recipe.id}`}
+              <Link
+                to={`/recipe/${recipe.id}`} // Use Link instead of anchor tag
                 className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
               >
                 View Recipe
-              </a>
+              </Link>
             </div>
           </div>
         ))}
