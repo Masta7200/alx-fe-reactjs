@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "title": "Spaghetti Carbonara",
+      "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 2,
+      "title": "Chicken Tikka Masala",
+      "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 3,
+      "title": "Vegetable Stir-Fry",
+      "summary": "A quick and healthy stir-fried dish with a variety of fresh vegetables.",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 4,
+      "title": "Beef Lasagna",
+      "summary": "Layers of pasta, ground beef, ricotta, and mozzarella cheese baked to perfection.",
+      "image": "https://via.placeholder.com/150"
+    }
+  ]
+  
